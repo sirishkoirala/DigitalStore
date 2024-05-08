@@ -18,18 +18,30 @@
 }
 
 .news input {
+    width: 27rem;
+    height: 4rem;
     font-size: 1.7rem;
     padding: .7rem;
     margin-right: .7rem;
     border: none;
+    padding-inline: 1rem;
     outline: none;
 }
 
-.news button {
+.Newsletter-btn {
+    height: 4rem;
     font-size: 1.7rem;
     padding: .7rem;
+    padding-inline: 3.5rem;
     border: none;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.Newsletter-btn:hover {
+    background-color: grey;
+    color: white;
+    border-radius: 4px;
 }
 
 @media (max-width:400px) {

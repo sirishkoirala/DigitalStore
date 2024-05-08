@@ -1,4 +1,4 @@
-#Digital Store
+#DigitalStore
 
 
 
